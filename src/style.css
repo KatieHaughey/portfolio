@@ -66,12 +66,20 @@ p {
 .contact-icon {
   color: black;
   font-size: 48px;
-  padding: 40px;
+  padding: 20px;
+  background-color: var(--branding-color-background);
+  border-radius: 500px;
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+.contact-icon:hover {
+  background-color: black;
+  color: white;
 }
 
 .contact-icons {
   text-align: center;
-  background-color: var(--branding-color-background);
 }
 
 .branded-button {
