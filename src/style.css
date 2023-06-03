@@ -39,6 +39,10 @@ p {
   padding: 160px;
 }
 
+.contact-hero {
+  padding: 100px;
+}
+
 .hero {
   padding: 30px;
   text-align: center;
@@ -94,13 +98,22 @@ p {
   margin: 50px auto;
 }
 
+.email {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 42px;
+  }
+
+  p {
+    font-size: 12px;
   }
 
   .hero {
