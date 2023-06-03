@@ -1,6 +1,6 @@
 :root {
   --branding-color: olive;
-  --branding-color-background: whitesmoke;
+  --branding-color-background: #f8f9fa;
   --heading-font-family: "playfair display";
   --default-font-family: "poppins";
 }
@@ -20,6 +20,10 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 body {
   font-family: var(--default-font-family);
 }
@@ -29,9 +33,9 @@ p {
 }
 
 .hero {
-  background-color: var(--branding-color-background);
   text-align: center;
   padding: 160px 0;
+  background-color: white;
 }
 
 .hero p {
@@ -45,4 +49,15 @@ p {
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
+}
+
+.contact-icon {
+  color: black;
+  font-size: 48px;
+  padding: 40px;
+}
+
+.contact-icons {
+  text-align: center;
+  background-color: var(--branding-color-background);
 }
