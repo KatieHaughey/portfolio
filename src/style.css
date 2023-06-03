@@ -18,6 +18,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 2;
 }
 
 h2 {
@@ -30,12 +31,19 @@ body {
 
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.home-hero {
+  padding: 100px 0;
 }
 
 .hero {
+  padding: 80px 0;
   text-align: center;
-  padding: 160px 0;
   background-color: white;
+  margin: 20px;
 }
 
 .hero p {
@@ -60,4 +68,40 @@ p {
 .contact-icons {
   text-align: center;
   background-color: var(--branding-color-background);
+}
+
+.branded-button {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: black;
+  border: 1px solid black;
+}
+
+.project-description {
+  padding: 60px;
+}
+
+.project-image {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 100px 0;
+  }
 }
