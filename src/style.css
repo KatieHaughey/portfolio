@@ -1,5 +1,5 @@
 :root {
-  --branding-color: olive;
+  --branding-color: #846053;
   --branding-color-background: #f8f9fa;
   --heading-font-family: "playfair display";
   --default-font-family: "poppins";
@@ -35,7 +35,7 @@ p {
   line-height: 30px;
 }
 
-.home-hero {
+.home-and-contact-hero {
   padding: 160px;
 }
 
@@ -46,13 +46,6 @@ p {
 .hero {
   padding: 30px;
   text-align: center;
-  background-color: white;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
   margin: 0;
 }
 
@@ -64,7 +57,7 @@ p {
 }
 
 .contact-icon {
-  color: black;
+  color: var(--branding-color);
   font-size: 48px;
   padding: 20px;
   background-color: var(--branding-color-background);
@@ -74,7 +67,7 @@ p {
 }
 
 .contact-icon:hover {
-  background-color: black;
+  background-color: var(--branding-color);
   color: white;
 }
 
@@ -87,8 +80,13 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  color: black;
-  border: 1px solid black;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.branded-button:hover {
+  background-color: var(--branding-color);
+  color: white;
 }
 
 .content-container {
@@ -108,16 +106,14 @@ p {
 
 .email {
   text-align: center;
+  line-height: 2;
+  font-size: 12px;
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 45px;
     line-height: 1.5;
-  }
-
-  h2 {
-    font-size: 42px;
   }
 
   p {
@@ -127,6 +123,18 @@ p {
   .hero {
     padding: 50px 0;
     margin-bottom: 0;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .home-and-contact-hero {
+    padding: 160px 0;
   }
 
   .content-container {
@@ -141,5 +149,13 @@ p {
 
   .contact-icon {
     font-size: 24px;
+    padding: 10px;
+    margin: 0 5px;
+  }
+
+  .branded-button {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 10px 15px;
   }
 }
