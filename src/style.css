@@ -35,6 +35,15 @@ p {
   line-height: 30px;
 }
 
+a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .home-and-contact-hero {
   padding: 160px;
 }
@@ -87,6 +96,7 @@ p {
 .branded-button:hover {
   background-color: var(--branding-color);
   color: white;
+  text-decoration: none;
 }
 
 .content-container {
