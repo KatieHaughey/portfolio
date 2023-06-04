@@ -124,6 +124,20 @@ a:hover {
   font-size: 12px;
 }
 
+.certificates {
+  padding: 60px;
+}
+
+.certificate-image {
+  max-width: 250px;
+  margin-bottom: 12px;
+  transition: all 100ms ease-in-out;
+}
+
+.certificate-image:hover {
+  transform: scale(125%);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -171,5 +185,9 @@ a:hover {
     font-size: 10px;
     line-height: 14px;
     padding: 10px 15px;
+  }
+
+  .certificates {
+    text-align: center;
   }
 }
