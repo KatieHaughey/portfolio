@@ -45,7 +45,7 @@ a:hover {
 }
 
 .home-and-contact-hero {
-  padding: 160px;
+  padding: 250px 250px 100px;
   background-image: url("/images/hero-image8.jpg");
   background-position: top;
   background-size: 100%;
@@ -148,7 +148,7 @@ a:hover {
   }
 
   .home-and-contact-hero {
-    padding: 160px 0;
+    padding: 200px 0;
   }
 
   .content-container {
