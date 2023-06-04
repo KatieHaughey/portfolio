@@ -148,6 +148,10 @@ a:hover {
   transform: scale(125%);
 }
 
+.coded-by {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
