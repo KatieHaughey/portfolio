@@ -58,7 +58,7 @@ a:hover {
 .heading-text {
   background-color: var(--branding-color-background);
   opacity: 0.8;
-
+  padding: 10px;
   border-radius: 20px;
 }
 
