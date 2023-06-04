@@ -23,6 +23,7 @@ h1 {
 
 h2 {
   font-size: 64px;
+  line-height: 2;
 }
 
 body {
@@ -46,20 +47,29 @@ a:hover {
 
 .home-and-contact-hero {
   padding: 250px 250px 100px;
+  text-align: center;
+  margin: 0;
   background-image: url("/images/hero-image8.jpg");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-.contact-hero {
-  padding: 100px;
+.heading-text {
+  background-color: var(--branding-color-background);
+  opacity: 0.8;
+
+  border-radius: 20px;
 }
 
 .hero {
   padding: 30px;
   text-align: center;
   margin: 0;
+  background-image: url("/images/hero-image8.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .hero h2 {
