@@ -160,8 +160,7 @@ a:hover {
 
 @media (max-width: 900px) {
   .hero {
-    padding: 50px 90px;
-    margin-bottom: 0;
+    padding: 85px;
   }
 
   .home-and-contact-hero {
