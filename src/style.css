@@ -45,17 +45,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.home-and-contact-hero {
-  padding: 250px 250px 100px;
-  text-align: center;
-  margin: 0;
+.header-image {
   background-image: url("/images/hero-image8.jpg");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-.heading-text {
+.header-text {
   background-color: var(--branding-color-background);
   opacity: 0.8;
   padding: 10px;
@@ -63,13 +60,13 @@ a:hover {
 }
 
 .hero {
-  padding: 30px;
+  padding: 100px 250px 100px;
   text-align: center;
-  margin: 0;
-  background-image: url("/images/hero-image8.jpg");
-  background-position: top;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.home-and-contact-hero {
+  padding: 250px 250px 100px;
 }
 
 .hero h2 {
@@ -82,6 +79,10 @@ a:hover {
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 2;
+}
+
+.contact-icons {
+  text-align: center;
 }
 
 .contact-icon {
@@ -97,10 +98,6 @@ a:hover {
 .contact-icon:hover {
   background-color: var(--branding-color);
   color: white;
-}
-
-.contact-icons {
-  text-align: center;
 }
 
 .branded-button {
@@ -162,40 +159,36 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 45px;
-    line-height: 1.5;
-  }
-
-  p {
-    font-size: 12px;
-  }
-
   .hero {
-    padding: 50px 0;
+    padding: 50px 90px;
     margin-bottom: 0;
+  }
+
+  .home-and-contact-hero {
+    padding: 200px 45px;
   }
 
   .hero h2 {
     font-size: 20px;
   }
 
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
   h2 {
     font-size: 20px;
   }
 
-  .home-and-contact-hero {
-    padding: 200px 0;
+  p {
+    font-size: 12px;
   }
 
   .content-container {
     text-align: center;
     padding: 0 60px;
     margin-bottom: 30px;
-  }
-
-  .headshot {
-    margin-top: 0;
   }
 
   .contact-icon {
@@ -212,5 +205,9 @@ a:hover {
 
   .certificates {
     text-align: center;
+  }
+
+  .headshot {
+    margin-top: 0;
   }
 }
