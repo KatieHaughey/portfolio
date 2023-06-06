@@ -114,13 +114,13 @@ a:hover {
 
 .project-image {
   margin-bottom: 40px;
+  border-radius: 20px;
 }
 
 .headshot {
   border-radius: 500px;
-  max-width: 300px;
-  display: block;
-  margin: 50px auto;
+  max-width: 100%;
+  margin: 100px auto;
 }
 
 .email {
