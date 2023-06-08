@@ -32,6 +32,8 @@
     <title>Projects | Front-end Developer - Katie Haughey</title>
   </head>
   <body>
+    <div class="container">
+    <header>
     <div class="hero header-image">
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
@@ -69,11 +71,14 @@
         <h1>Projects</h1>
       </div>
     </div>
+    </header>
 
-    <div class="container mt-5">
+    <main>
+      <section>
+    <div class="content-container">
 
       <div class="row">
-        <div class="col d-none d-lg-block">
+        <div class="col">
           <img
             src="/images/projects/responsive.jpg"
             alt="responsive project with embeds"
@@ -82,8 +87,8 @@
         </div>
         <div class="col">
           <div class="content-container">
-            <h2 class="mb-5">Responsive Project</h2>
-            <p class="mb-4 text-muted">
+            <h2 >Responsive Project</h2>
+            <p class="text-muted">
               Built with HTML and CSS.
               <div class="coding-icons">
               <i class="fa-brands fa-html5 coding-icon"></i>
@@ -105,9 +110,16 @@
 
       <div class="row">
         <div class="col">
+          <div class="col d-block d-sm-none">
+          <img
+            src="/images/projects/weather.jpeg"
+            alt="weather app"
+            class="img-fluid project-image"
+          />
+        </div>
           <div class="content-container">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-4 text-muted">
+            <h2>Weather App</h2>
+            <p class="text-muted">
               Built with HTML, CSS, Bootstrap, JavaScript and OpenWeather API.
               <div class="coding-icons">
               <i class="fa-brands fa-html5 coding-icon"></i>
@@ -138,7 +150,7 @@
       
 
       <div class="row">
-        <div class="col d-none d-lg-block">
+        <div class="col">
           <img
             src="/images/projects/clock.jpeg"
             alt="world clock"
@@ -147,8 +159,8 @@
         </div>
         <div class="col">
           <div class="content-container">
-            <h2 class="mb-5">World Clock</h2>
-            <p class="mb-4 text-muted">
+            <h2>World Clock</h2>
+            <p class="text-muted">
               Built with HTML, CSS, Bootstrap, JavaScript and Moment.js.
               <div class="coding-icons">
               <i class="fa-brands fa-html5 coding-icon"></i>
@@ -161,7 +173,7 @@
               </div>
             </p>
             <a
-              class="btn branded-button mt-3 mb-5"
+              class="btn branded-button mt-3"
               href="https://neon-druid-3bd533.netlify.app/"
               target="_blank"
               >Launch project</a
@@ -170,8 +182,9 @@
         </div>
       </div>
 
-    </div>
-
+      </div>
+    </section>
+</main>
 
 
 
@@ -190,5 +203,6 @@
         ></a>
       </div>
     </footer>
+    </div>
   </body>
 </html>

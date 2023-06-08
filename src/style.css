@@ -28,6 +28,20 @@ h2 {
 
 body {
   font-family: var(--default-font-family);
+  background-color: var(--branding-color-background);
+}
+
+header {
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+}
+
+section.secondary {
+  border-top: var(--branding-color-background) solid 5px;
+  padding: 20px;
 }
 
 p {
@@ -45,15 +59,27 @@ a:hover {
   text-decoration: underline;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
 .header-image {
-  background-image: url("/images/hero-image8.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("/images/hero-image8.jpg");
   background-position: top;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .header-text {
-  background-color: var(--branding-color-background);
   opacity: 0.8;
   padding: 10px;
   border-radius: 20px;
@@ -82,9 +108,9 @@ a:hover {
   color: var(--branding-color);
   font-size: 48px;
   padding: 20px;
-  background-color: var(--branding-color-background);
+  background-color: white;
   border-radius: 500px;
-  margin: 0 20px;
+  margin: 20px;
   transition: all 100ms ease-in-out;
 }
 
@@ -110,6 +136,7 @@ a:hover {
 
 .content-container {
   padding: 60px;
+  margin-top: 10px;
 }
 
 .project-image {
@@ -129,13 +156,25 @@ a:hover {
   font-size: 12px;
 }
 
-.certificates {
-  padding: 60px;
+.grid {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-4-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project-image-responsive {
+  display: none;
 }
 
 .certificate-image {
-  max-width: 250px;
-  margin-bottom: 12px;
+  width: 100%;
   transition: all 100ms ease-in-out;
 }
 
@@ -177,16 +216,24 @@ a:hover {
     font-size: 12px;
   }
 
+  body.home-and-contact {
+    background-color: white;
+  }
+
+  footer.home-and-contact {
+    background-color: var(--branding-color-background);
+  }
+
   .content-container {
     text-align: center;
-    padding: 0 60px;
+    padding: 30px;
     margin-bottom: 30px;
   }
 
   .contact-icon {
     font-size: 24px;
     padding: 10px;
-    margin: 0 5px;
+    margin: 10px;
   }
 
   .branded-button {
@@ -195,11 +242,21 @@ a:hover {
     padding: 10px 15px;
   }
 
-  .certificates {
-    text-align: center;
-  }
-
   .headshot {
     margin-top: 0;
+  }
+
+  .grid-4-columns {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .project-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
   }
 }
