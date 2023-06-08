@@ -59,6 +59,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.nav-bar-headshot {
+  max-width: 40px;
+  border-radius: 500px;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
