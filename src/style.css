@@ -23,7 +23,6 @@ h1 {
 
 h2 {
   font-size: 64px;
-  line-height: 2;
 }
 
 body {
@@ -75,8 +74,8 @@ a:hover {
 
 .header-image {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.1)
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.5)
     ),
     url("/images/hero-image8.jpg");
   background-position: top;
@@ -140,13 +139,21 @@ a:hover {
 }
 
 .content-container {
-  padding: 60px;
+  padding: 30px;
   margin-top: 10px;
 }
 
 .project-image {
   margin-bottom: 40px;
   border-radius: 20px;
+}
+
+.projects {
+  padding: 40px;
+}
+
+.about-me {
+  margin: 100px auto;
 }
 
 .headshot {
@@ -233,7 +240,6 @@ a:hover {
   .content-container {
     text-align: center;
     padding: 30px;
-    margin-bottom: 30px;
   }
 
   .contact-icon {
@@ -249,7 +255,11 @@ a:hover {
   }
 
   .headshot {
-    margin-top: 0;
+    margin: 50px auto;
+  }
+
+  .about-me {
+    margin: 0 auto;
   }
 
   .grid-4-columns {
@@ -258,11 +268,5 @@ a:hover {
 
   .grid-2-columns {
     grid-template-columns: 1fr;
-  }
-
-  .project-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px;
   }
 }
