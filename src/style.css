@@ -188,10 +188,11 @@ a:hover {
 .certificate-image {
   width: 100%;
   transition: all 100ms ease-in-out;
+  filter: grayscale(50%);
 }
 
 .certificate-image:hover {
-  transform: scale(125%);
+  filter: none;
 }
 
 .coded-by {
@@ -222,7 +223,11 @@ a:hover {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 15px;
   }
 
   p {
@@ -239,7 +244,7 @@ a:hover {
 
   .content-container {
     text-align: center;
-    padding: 30px;
+    padding: 8px;
   }
 
   .contact-icon {
