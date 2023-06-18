@@ -199,6 +199,10 @@ footer .contact-icon {
   color: olivedrab;
 }
 
+.fa-seedling {
+  color: olivedrab;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 50px;
