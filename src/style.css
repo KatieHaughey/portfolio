@@ -125,37 +125,6 @@ footer .contact-icon {
   transition: all 100ms ease-in-out;
 }
 
-.dark {
-  background-color: black;
-  color: white;
-}
-
-.dark main {
-  background-color: #2f3a3c;
-}
-
-.dark .header-image {
-  background-image: url("/images/dark-monstera.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.dark h1 {
-  color: white;
-}
-
-.dark h2 {
-  color: white;
-}
-
-.dark h4 {
-  color: white;
-}
-
-.dark .coding-icons {
-  color: beige;
-}
-
 .contact-icon:hover {
   background-color: var(--branding-color);
   color: white;
