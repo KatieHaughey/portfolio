@@ -206,6 +206,36 @@ footer .contact-icon {
   color: olivedrab;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  animation: forwards;
+  animation-name: fade-in;
+  color: white;
+}
+
+h1 {
+  animation-duration: 2s;
+}
+
+h2,
+h3,
+h4,
+p {
+  animation-duration: 6s;
+}
+
+@keyframes fade-in {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 50px;
