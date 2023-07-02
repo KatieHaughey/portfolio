@@ -214,17 +214,7 @@ p {
   animation: forwards;
   animation-name: fade-in;
   color: white;
-}
-
-h1 {
-  animation-duration: 2s;
-}
-
-h2,
-h3,
-h4,
-p {
-  animation-duration: 6s;
+  animation-duration: 1s;
 }
 
 @keyframes fade-in {
