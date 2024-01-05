@@ -1,5 +1,5 @@
 :root {
-  --primary-color: olivedrab;
+  --primary-color: #58751a;
   --secondary-color: #a68358;
   --branding-color-background: #f8f9fa;
   --heading-font-family: "Bebas Neue", sans-serif;
@@ -59,8 +59,8 @@ a {
   transition: 300ms;
 }
 
-a:hover:not(footer a) {
-  text-decoration: underline;
+a:hover:not(footer a, .branded-button) {
+  opacity: 80%;
 }
 
 .nav-bar-headshot {
@@ -131,10 +131,6 @@ footer .contact-icon {
 footer .contact-icon:hover {
   background-color: var(--primary-color);
   color: white;
-}
-
-.contact-icon:hover {
-  opacity: 80%;
 }
 
 .branded-button {
